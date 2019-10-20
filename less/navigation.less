@@ -1,0 +1,20 @@
+header {
+	nav {
+        .myFlex(@towrap: nowrap, @justify: space-between);
+        padding: 0 2rem;
+        width: 100%;
+        border-bottom: @bottom;
+        div {
+            .myFlex(@towrap: nowrap); 
+            a {
+                .perfectLink();
+            }
+        }
+        .icon-container {
+            padding: 1rem;
+        }
+        .logo-container {
+            width: 30%;
+        }
+    }
+}

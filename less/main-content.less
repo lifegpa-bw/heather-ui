@@ -1,8 +1,98 @@
+.hero {
+    padding: 6rem 3rem;
+    text-align: center;
+    .myFlex(@direction: column; @towrap: nowrap);
+    h1 {
+        font-size: 12rem;
+        font-style: bold;
+        padding: 2rem 0;
+    }
+    .btn {
+        .perfectButton();
+    }
+}
+
+
 .about-app  {
     background: @med-gray;
     color: @black;
-    svg {
-        font-size: 0.65rem;
+    width: 100%;
+    padding: 6rem;
+    h2 {
+        border-bottom: 1px solid @yellow;
+        padding-bottom: 0.5rem;
+    }
+    ol {
+        padding: 2rem 0;
+        font-size: 2rem;
+        li {
+            padding: 1rem 0; 
+            line-height: 4rem;
         }
+        
+    }
+    .svg-section {
+        .myFlex(@towrap: nowrap);
+        svg {
+            font-size: 0.65rem;
+            }
+    }
+    
+}
+
+
+.about-goals {
+    padding: 2rem;
+    margin: 5rem auto;
+    text-align: center;
+    border-radius: 1px;
+    border-bottom: 1px solid @yellow;
+    h2 {
+        padding: 2rem;
+    }
+    h3 {
+        padding-bottom: 2rem;
+        font-style: italic;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    p {
+        padding: 1.5rem;
+    }
+    .goal-types {
+        .myFlex();
+        margin: 2rem 0;
+        div {
+            background: @light-gray;
+            color: @main-background;
+            padding: 1.5rem;
+            border-radius: 2rem;
+            p {
+                font-size: 3rem;
+                margin-bottom: 1rem;
+            }
+        }
+        
+    }
+}
+
+.contact {
+    form {
+        background: @med-gray;
+        color: @black;
+        width: 50%;
+        margin: 2rem auto;
+        padding: 2rem;
+        .myFlex(@direction: column);
+        input, textarea {
+            background-color: white;
+            width: 80%;
+            border: none;
+            height: 3rem;
+        }
+        .btn {
+            .perfectButton(@top-margin: 2rem; @text-size: 2rem);
+        }
+    }
 }
 

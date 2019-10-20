@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Life GPA - Landing Page</title>
+  <title>LifeGPA - Landing Page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
@@ -35,70 +35,45 @@
 </head>
 
 <body>
-  <nav>
-    <div class="container">
-      <img src="img/favicons/favicon-96x96.png" alt="Life GPA icon" />
-    </div>
-    <div class="container">
-      <img src="img/logoTM.jpeg" alt="Life GPA logo" />
-    </div>
-    <div>
-      <a href="#">Login</a>
-      <a href="#">About Us</a>
-      <a href="#">Contact Us</a>
-    </div>
-  </nav>
+  <header>
+    <nav>
+      <div class="icon-container">
+        <img src="img/favicons/favicon-32x32.png" alt="LifeGPA icon" />
+      </div>
+      <div class="logo-container">
+        <img src="img/logoTM.jpeg" alt="LifeGPA logo" />
+      </div>
+      <div class="links">
+        <a href="#">Login</a>
+        <a href="#">About Us</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+    </nav>
+  </header>
 
-  <section class="hero"></section>
+  <section class="hero container">
     <h1>Welcome to the new you!</h1>
-    <div class="container">
-      <img src="/img/LifeGPA.png" alt="Life GPA main logo" />
+    <div>
+      <img src="/img/LifeGPA.png" alt="LifeGPA main logo" />
     </div>
     <a class="btn" href="#">Log In/Get Started Now</a>
   </section>
-  <section class="about-goals">
-    <h2>Ready to become your best self?</h2>
-    <h3>Build positive habits. See your growth. Create any type of goal.</h3>
-    <section class="goal-types">
-      <div>
-        <p><i class="fas fa-running"></i></p>
-        <h4>Fitness</h4>
-      </div>
-      <div>
-        <p><i class="fas fa-carrot"></i></p>
-        <h4>Nutrition</h4>
-      </div>
-      <div>
-        <p><i class="fas fa-brain"></i></p>
-        <h4>Education</h4>
-      </div>
-      <div>
-        <p><i class="fas fa-heart"></i></p>
-        <h4>Relationships</h4>
-      </div>
-      <div>
-        <p><i class="fas fa-briefcase"></i></p>
-        <h4>Career</h4>
-      </div>
-    </section>
-
-  </section>
   
   <section class="about-app">
-    <h2>How Life GPA Works</h2>
-    <ul>
-      <li>Create an account. 
+    <h2>How LifeGPA Works</h2>
+    <ol>
+      <li>1. <span class="pop">Create</span> an account. 
         Add your positive habits -- pick from suggested goals 
         and/or customize your own.</li>
-      <li>Each day, select yes for each goal you accomplished. 
+      <li>2. Each day, select <span class="pop">yes</span> for each goal you accomplished. 
         Select no if you didn't do it; try again tomorrow.</li>
-      <li>See your progress, tracked as a percentage for each goal. Also, note your
-        overall average percentage of success -- your Life GPA!</li>
-    </ul>
+      <li>3. See your progress, tracked as a percentage for each goal. Also, note your
+        overall average percentage of success -- <span class="pop">your LifeGPA!</span></li>
+    </ol>
 
-    <div class="svg-section">
+    <div class="svg-section container">
       <!-- svg -->
-      <svg width="100%" height="100%" class="circle-chart" viewBox="0 0 42 42" 
+      <svg width="32%" class="circle-chart" viewBox="0 0 42 42" 
         xmlns="http://www.w3.org/2000/svg">
 
         <circle class="circle-chart-background" stroke="#efefef" stroke-width="3" fill="none" cx="21" cy="21" r="15.91549431">
@@ -115,7 +90,7 @@
       </svg>
     
       <!-- svg -->
-      <svg width="100%" height="100%" class="circle-chart" viewBox="0 0 42 42" 
+      <svg width="32%" class="circle-chart" viewBox="0 0 42 42" 
       xmlns="http://www.w3.org/2000/svg">
 
       <circle class="circle-chart-background" stroke="#efefef" stroke-width="3" 
@@ -133,7 +108,7 @@
     </svg>
 
     <!-- svg -->
-    <svg width="100%" height="100%" class="circle-chart" viewBox="0 0 42 42" 
+    <svg width="32%" class="circle-chart" viewBox="0 0 42 42" 
     xmlns="http://www.w3.org/2000/svg">
       <circle class="circle-chart-background" stroke="#efefef" 
       stroke-width="3" fill="none" cx="21" cy="21" r="15.91549431"></circle>
@@ -151,40 +126,61 @@
 
   </section>
 
-  <section class="pitch">
-    <p>Start making progress today! Life GPA makes it easy to make and practice 
-      good habits every day. This mobile-friendly tool is handy and ready to help 
-      you keep on track and stay motivated. </p>
+  <section class="about-goals container">
+      <h2>Ready to become your best self?</h2>
+      <h3>Build positive habits. See your growth. Create any type of goal.</h3>
+      <section class="goal-types container">
+        <div>
+          <p><i class="fas fa-running"></i></p>
+          <h4>Fitness</h4>
+        </div>
+        <div>
+          <p><i class="fas fa-carrot"></i></p>
+          <h4>Nutrition</h4>
+        </div>
+        <div>
+          <p><i class="fas fa-brain"></i></p>
+          <h4>Education</h4>
+        </div>
+        <div>
+          <p><i class="fas fa-heart"></i></p>
+          <h4>Relationships</h4>
+        </div>
+        <div>
+          <p><i class="fas fa-briefcase"></i></p>
+          <h4>Career</h4>
+        </div>
+      </section>  
   
-    <h3>“If you believe you can change - if you make it a habit - the change becomes real.”
-― Charles Duhigg, The Power of Habit: Why We Do What We Do in Life and Business</h3>
+    <h2>“If you believe you can change - if you make it a habit - the change becomes real.”</h2>
+    <h3>― Charles Duhigg, The Power of Habit: Why We Do What We Do in Life and Business</h3>
   </section>
 
-  <section class="contact">
+  <section id="contact" class="contact container">
     <h2>Contact Us</h2>
     <p>We would love to answer any questions and hear your feedback!</p>
     <form action="https://formspree.io/xdqzoqqm" method="POST">
       <label for="name">Your name</label>
-      <input type="text" name="name">
+      <input type="text" name="name"><br />
 
       <label for="_replyto">Your email</label>
-      <input type="email" name="_replyto">
-      <label for"message">What's on your mind</label>
-      <input type="texarea" name="message">
-      
-      <input type="submit" value="Send">
+      <input type="email" name="_replyto"><br />
+      <label for"message">Your message</label>
+      <input type="texarea" name="message"><br />
+
+      <input class="btn" type="submit" value="Send">
     </form>
     
   </section>
 
   <footer>
     <nav>
+        <a href="#">Home</a>
         <a href="#">Login</a>
-        <a href="#">About Us</a>
-        <a href="#">Contact Us</a>  
+        <a href="#">About Us</a>  
     </nav>
 
-    <p> Copyright © Heather Nuffer</p>
+    <p> Copyright © LifeGPA Group</p>
   </footer>
 </body>
 </html>

@@ -1,0 +1,35 @@
+.perfectLink() {
+	text-decoration: none;
+	color: @med-gray;
+	padding: 0 1.6rem;
+	font-size: 1.8rem;
+	border-radius: 2px;
+	&:hover {
+		background-color: @shadowColor;
+	}
+}
+
+// Parametric Mixins
+
+.perfectButton(@top-margin: 8rem; @text-size: 3rem) {
+	text-decoration: none;
+	background-color: @button-background;
+	color: @black;
+	padding: 2rem 1.5rem;
+	margin: @top-margin 0;
+	width: 60%;
+	text-align: center;
+	font-size: @text-size;
+	border-radius: 3px;
+	&:hover {
+        //background-color: @shadowColor;
+        font-style: italic;
+	}
+}
+
+.myFlex(@direction: row; @towrap: wrap; @justify: space-evenly; @align: center) {
+	display: flex;
+	flex-flow: @direction @towrap;
+	justify-content: @justify;
+	align-items: @align;
+}
