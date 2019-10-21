@@ -181,8 +181,14 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-.pop {
+.pop,
+.active {
   font-weight: bold;
+}
+header h1 {
+  margin: 5rem auto;
+  font-size: 10rem;
+  width: 50%;
 }
 header nav {
   display: flex;
@@ -392,6 +398,47 @@ header nav .logo-container {
 .about-goals .goal-types div p {
   font-size: 3rem;
   margin-bottom: 1rem;
+}
+.team-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+.team-container .bio-container {
+  padding: 2rem;
+  width: 31%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 2px;
+  color: #000000;
+  background: #E5E5E5;
+}
+.team-container .bio-container h2 {
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+  margin: 1rem;
+  color: #636262;
+}
+.team-container .bio-container h3 {
+  padding: 1rem;
+  font-size: 2rem;
+}
+.team-container .bio-container .img-container img {
+  border-radius: 2px;
+}
+.team-container .bio-container .bio-links {
+  width: 50%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.team-container .bio-container .bio-links a {
+  color: #000000;
+  font-size: 2rem;
 }
 .contact form {
   border-radius: 2px;

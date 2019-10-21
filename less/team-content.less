@@ -1,0 +1,35 @@
+.team-container {
+    .myFlex(@align: stretch);
+
+    .bio-container {
+        padding: 2rem;
+        width: 31%;
+        .myFlex(@direction: column);
+        border-radius: 2px;
+        color: @black;
+        background: @light-gray;
+        h2 {
+            font-weight: bolder;
+            letter-spacing: 0.1em;
+            margin: 1rem;
+            color: @dark-gray;
+        }
+        h3 {
+            padding: 1rem;
+            font-size: 2rem;
+        }
+        .img-container {
+            img {
+                border-radius: 2px;
+            }
+        }
+        .bio-links {
+            width: 50%;
+            .myFlex();
+            a {
+                color: @black;
+                font-size: 2rem;
+            }
+        }
+    }
+}
