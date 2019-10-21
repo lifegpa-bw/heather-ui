@@ -193,6 +193,17 @@ header nav {
   width: 100%;
   border-bottom: 1px solid #E5E5E5;
 }
+@media (max-width: 500px) {
+  header nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  header nav div {
+    width: 100%;
+  }
+}
 header nav div {
   display: flex;
   flex-flow: row nowrap;
@@ -213,11 +224,32 @@ header nav div a:hover {
 header nav div a:hover {
   font-style: italic;
 }
+@media (max-width: 800px) {
+  header nav div a {
+    font-size: 2.5em;
+  }
+}
 header nav .icon-container {
   padding: 1rem;
 }
+@media (max-width: 500px) {
+  header nav .icon-container {
+    display: none;
+  }
+}
 header nav .logo-container {
   width: 30%;
+}
+@media (max-width: 800px) {
+  header nav .logo-container {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  header nav .logo-container {
+    display: block;
+    margin: 1em 0;
+  }
 }
 .hero {
   -webkit-animation-name: fadeInRight;
@@ -293,6 +325,12 @@ header nav .logo-container {
 .about-goals h2 {
   padding: 2rem;
 }
+.about-goals .quote {
+  transition: all 0.2s ease-in-out;
+}
+.about-goals .quote:hover {
+  transform: scale(1.1);
+}
 .about-goals h3 {
   padding-bottom: 2rem;
   font-style: italic;
@@ -331,6 +369,11 @@ header nav .logo-container {
   justify-content: space-evenly;
   align-items: center;
 }
+@media (max-width: 800px) {
+  .contact form {
+    width: 90%;
+  }
+}
 .contact form input,
 .contact form textarea {
   background-color: white;
@@ -338,10 +381,21 @@ header nav .logo-container {
   border: none;
   height: 3rem;
 }
+@media (max-width: 800px) {
+  .contact form input,
+  .contact form textarea {
+    margin: 1em;
+  }
+}
+.contact form label {
+  font-size: 2rem;
+  margin: 2rem 0 1rem 0;
+}
 .contact form .submit-btn {
   background: #FFEB38;
   border-radius: 2px;
   width: 50%;
+  margin-top: 1rem;
   transition: all 0.2s ease-in-out;
 }
 .contact form .submit-btn:hover {
@@ -369,4 +423,9 @@ footer nav a:hover {
 }
 footer nav a:hover {
   font-style: italic;
+}
+@media (max-width: 800px) {
+  footer nav a {
+    font-size: 2.5em;
+  }
 }

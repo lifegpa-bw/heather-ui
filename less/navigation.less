@@ -1,6 +1,12 @@
 header {
 	nav {
         .myFlex(@towrap: nowrap, @justify: space-between);
+        @media @phone {
+            .myFlex(@towrap: wrap);
+            div {
+                width: 100%;
+            }
+        }
         padding: 0 2rem;
         width: 100%;
         border-bottom: @bottom;
@@ -12,9 +18,19 @@ header {
         }
         .icon-container {
             padding: 1rem;
+            @media @phone {
+                display: none;
+            }
         }
         .logo-container {
             width: 30%;
+            @media @tablet {
+                display: none;
+            }
+            @media @phone {
+                display: block;
+                margin: 1em 0;
+            }
         }
     }
 }
