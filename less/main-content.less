@@ -7,6 +7,9 @@
         font-size: 12rem;
         font-style: bold;
         padding: 2rem 0;
+        @media @phone {
+            font-size: 6em;
+        }
     }
     .btn {
         .perfectButton();
@@ -66,6 +69,12 @@
     .goal-types {
         .myFlex();
         margin: 2rem 0;
+        @media @phone {
+            background: @yellow;
+            .myFlex(@towrap: wrap);
+            align-content: stretch;
+            height: 100vh;
+        }
         div {
             background: @light-gray;
             color: @main-background;

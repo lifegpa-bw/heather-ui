@@ -8,9 +8,17 @@ footer {
         a {
             .perfectLink();
             @media @phone {
-                background: @black;
                 color: @light-gray;
+                background: @black;
+                padding: 0 0.25em;
+                border-right: 1px solid white;
+                font-size: 2em;
             }
+        }
+        a:last-of-type {
+            @media @phone {
+                border-right: none;
+            }  
         }
     }
 }
