@@ -1,11 +1,20 @@
 .team-container {
     .myFlex(@align: stretch);
     align-content: space-between;
-
+    text-align: center;
+    @media @tablet {
+        width: 80%;
+    }
     .bio-container {
         .makeGrow();
         padding: 2rem;
         width: 31%;
+        @media @tablet {
+            width: 48%;
+        }
+        @media @phone {
+            width: 98%;
+        }
         .myFlex(@direction: column);
         border-radius: 2px;
         color: @black;
