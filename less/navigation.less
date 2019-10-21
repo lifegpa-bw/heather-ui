@@ -1,17 +1,24 @@
 header {
 	nav {
         .myFlex(@towrap: nowrap, @justify: space-between);
+        border-bottom: @bottom;
         @media @phone {
             .myFlex(@towrap: wrap);
+            border-bottom: none;
             div {
                 width: 100%;
             }
         }
         padding: 0 2rem;
         width: 100%;
-        border-bottom: @bottom;
+        
+
         div {
             .myFlex(@towrap: nowrap); 
+            @media @phone {
+                width: 100%;
+                .myFlex(@towrap: nowrap; @direction: column);
+            }
             a {
                 .perfectLink();
             }

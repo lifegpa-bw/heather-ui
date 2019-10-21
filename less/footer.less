@@ -2,8 +2,15 @@ footer {
     margin-top: 4rem;
     nav {
         margin-bottom: 2rem;
+        @media @phone {
+            .myFlex(@towrap: nowrap);
+        }
         a {
             .perfectLink();
+            @media @phone {
+                background: @black;
+                color: @light-gray;
+            }
         }
     }
 }
