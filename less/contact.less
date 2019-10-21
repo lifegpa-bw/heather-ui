@@ -1,0 +1,27 @@
+.contact {
+    form {
+        border-radius: 2px;
+        background: @med-gray;
+        color: @black;
+        width: 50%;
+        margin: 2rem auto;
+        padding: 2rem;
+        .myFlex(@direction: column);
+        input, textarea {
+            background-color: white;
+            width: 80%;
+            border: none;
+            height: 3rem;
+        }
+        .submit-btn {
+            background: @yellow;
+            border-radius: 2px;
+            width: 50%;
+            .makeGrow();
+            &:hover {
+                font-style: italic;
+            }
+
+        }
+    }
+}

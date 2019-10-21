@@ -1,5 +1,6 @@
 .hero {
-    padding: 6rem 3rem;
+    .fadeInRight();
+    padding: 6rem;
     text-align: center;
     .myFlex(@direction: column; @towrap: nowrap);
     h1 {
@@ -76,23 +77,5 @@
     }
 }
 
-.contact {
-    form {
-        background: @med-gray;
-        color: @black;
-        width: 50%;
-        margin: 2rem auto;
-        padding: 2rem;
-        .myFlex(@direction: column);
-        input, textarea {
-            background-color: white;
-            width: 80%;
-            border: none;
-            height: 3rem;
-        }
-        .btn {
-            .perfectButton(@top-margin: 2rem; @text-size: 2rem);
-        }
-    }
-}
+
 
