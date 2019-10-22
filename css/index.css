@@ -518,6 +518,8 @@ header nav .logo-container {
   .contact form .submit-btn {
     height: 20vh;
     font-size: 3em;
+    border-radius: 1px;
+    width: 70%;
   }
 }
 footer {
