@@ -1,0 +1,41 @@
+.habit-container {
+    margin-bottom: 6rem;
+    .myFlex(@justify: space-between; @align: center);
+    &:nth-child(even) {
+        flex-direction: row-reverse;
+        .img-container {
+            .myFlex(@justify: flex-end);
+        }
+    }
+    .img-container {
+        width: 49%;
+        .myFlex(@justify: flex-start);
+        img {
+            max-width: 100%;
+            border-radius: 2px;
+        }
+        a {
+            padding: 1rem;
+            color: @light-gray;
+            text-decoration: none;
+        }
+    }
+    .text-container {
+        background: @light-gray;
+        width: 45%;
+        color: @black;
+        padding: 3rem;
+        border-radius: 2rem;
+        ul {
+            margin: 2px;
+            text-align: left;
+            li {
+                font-size: 2rem;
+                margin: 3rem auto;
+            }
+        }
+        &:hover {
+            .makeGrow();
+        }
+    }
+}

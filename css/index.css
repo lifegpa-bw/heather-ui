@@ -306,6 +306,21 @@ header nav .logo-container {
     font-size: 6em;
   }
 }
+.hero h2 {
+  margin: 1.5rem;
+}
+.hero h3 {
+  font-size: 1.5rem;
+}
+.hero h3 a {
+  text-decoration: none;
+  font-style: italic;
+  color: white;
+  font-weight: bold;
+}
+.hero h3 a:hover {
+  color: #FFEB38;
+}
 .hero .btn {
   text-decoration: none;
   background-color: #FFEB38;
@@ -346,6 +361,14 @@ header nav .logo-container {
 .about-app ol li {
   padding: 1rem 0;
   line-height: 4rem;
+}
+.about-app ol li a {
+  text-decoration: none;
+  color: #E5E5E5;
+  font-weight: bold;
+}
+.about-app ol li a:hover {
+  font-style: italic;
 }
 .about-app .svg-section {
   display: flex;
@@ -472,6 +495,59 @@ header nav .logo-container {
 .team-container .bio-container .bio-links a {
   color: #000000;
   font-size: 2rem;
+}
+.habit-container {
+  margin-bottom: 6rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.habit-container:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.habit-container:nth-child(even) .img-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.habit-container .img-container {
+  width: 49%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.habit-container .img-container img {
+  max-width: 100%;
+  border-radius: 2px;
+}
+.habit-container .img-container a {
+  padding: 1rem;
+  color: #E5E5E5;
+  text-decoration: none;
+}
+.habit-container .text-container {
+  background: #E5E5E5;
+  width: 45%;
+  color: #000000;
+  padding: 3rem;
+  border-radius: 2rem;
+}
+.habit-container .text-container ul {
+  margin: 2px;
+  text-align: left;
+}
+.habit-container .text-container ul li {
+  font-size: 2rem;
+  margin: 3rem auto;
+}
+.habit-container .text-container:hover {
+  transition: all 0.2s ease-in-out;
+}
+.habit-container .text-container:hover:hover {
+  transform: scale(1.1);
 }
 .contact form {
   border-radius: 2px;

@@ -11,6 +11,21 @@
             font-size: 6em;
         }
     }
+    h2 {
+        margin: 1.5rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+        a {
+            text-decoration: none;
+            font-style: italic;
+            color: white;
+            font-weight: bold;
+            &:hover {
+                color: @yellow;
+            }
+        }
+    }
     .btn {
         .perfectButton();
     }
@@ -32,6 +47,14 @@
         li {
             padding: 1rem 0; 
             line-height: 4rem;
+            a {
+                text-decoration: none;
+                color: @light-gray;
+                font-weight: bold;
+                &:hover {
+                    font-style: italic;
+                }
+            }
         }
         
     }
