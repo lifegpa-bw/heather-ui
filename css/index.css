@@ -508,6 +508,10 @@ header nav .logo-container {
   color: #000000;
   font-size: 2rem;
 }
+.team-container .bio-container .bio-links a:hover {
+  background: #FFEB38;
+  border-radius: 50%;
+}
 .habit-container {
   margin-bottom: 6rem;
   display: flex;
