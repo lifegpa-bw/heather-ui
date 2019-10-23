@@ -413,6 +413,9 @@ header nav .logo-container {
 .about-goals a:hover:hover {
   transform: scale(1.1);
 }
+.about-goals a div h4 {
+  text-decoration: none;
+}
 .about-goals .goal-types {
   display: flex;
   flex-flow: row wrap;
