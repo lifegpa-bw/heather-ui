@@ -10,7 +10,8 @@ The pages are responsive for desktop (1000px +), tablet (800px +) and mobile (50
 
 -----------------------------
 
-Project Specs:
+**Project Specs**
+
 
 **Product Vision Document:**
 
