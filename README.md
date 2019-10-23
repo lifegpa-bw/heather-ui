@@ -2,7 +2,7 @@
 
 This is a project for build week at Lambda School. 
 
-My contribution is a landing page and a "About Us" page.
+My contribution is a landing page and a "About Us" page. The landing page also has links to a page I made about goal ideas.
 https://lifegpa-bw.github.io/heather-ui/index.html
 
 

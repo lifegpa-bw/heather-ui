@@ -404,6 +404,15 @@ header nav .logo-container {
 .about-goals p {
   padding: 1.5rem;
 }
+.about-goals a {
+  text-decoration: none;
+}
+.about-goals a:hover {
+  transition: all 0.2s ease-in-out;
+}
+.about-goals a:hover:hover {
+  transform: scale(1.1);
+}
 .about-goals .goal-types {
   display: flex;
   flex-flow: row wrap;
