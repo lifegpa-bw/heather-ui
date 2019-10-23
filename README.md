@@ -1,4 +1,4 @@
-LifeGPA
+**LifeGPA**
 
 This is a project for build week at Lambda School. 
 
@@ -12,7 +12,12 @@ The pages are responsive for desktop (1000px +), tablet (800px +) and mobile (50
 
 Project Specs:
 
-Pitch
+**Product Vision Document:**
+
+https://docs.google.com/document/d/1HZ3kmr5iCCn10J-F57yqdsfNTQ-BO_v9zcjfkZQWWPY/edit?usp=sharing
+
+**Pitch**
+
 If you gave your life a grade right now what would it be?
 
 How would you rank your combined efforts in all your different life categories like personal development, professional goals, physical fitness, AND relationship building?
@@ -26,6 +31,8 @@ MVP
 - All you do is tell the app which habits you performed each day.
 Stretch
 - visualize the data over time on some sort of graph that shows improvement or a decline for the habits the user is choosing
-Data Sets / Design Links
+
+**Design Links**
+
 https://www.figma.com/file/K5NaKl98e0gOLYEOVpOprmKE/V01?node-id=0%3A1"
 	
