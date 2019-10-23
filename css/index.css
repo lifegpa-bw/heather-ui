@@ -416,6 +416,9 @@ header nav .logo-container {
 .about-goals a div h4 {
   text-decoration: none;
 }
+.about-goals a div:hover {
+  background: #FFEB38;
+}
 .about-goals .goal-types {
   display: flex;
   flex-flow: row wrap;
