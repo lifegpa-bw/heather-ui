@@ -503,6 +503,16 @@ header nav .logo-container {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .habit-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid #FFEB38;
+    padding-bottom: 4em;
+  }
+}
 .habit-container:nth-child(even) {
   flex-direction: row-reverse;
 }
@@ -519,6 +529,11 @@ header nav .logo-container {
   justify-content: flex-start;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .habit-container .img-container {
+    width: 90%;
+  }
+}
 .habit-container .img-container img {
   max-width: 100%;
   border-radius: 2px;
@@ -534,6 +549,11 @@ header nav .logo-container {
   color: #000000;
   padding: 3rem;
   border-radius: 2rem;
+}
+@media (max-width: 500px) {
+  .habit-container .text-container {
+    width: 95%;
+  }
 }
 .habit-container .text-container ul {
   margin: 2px;

@@ -1,6 +1,11 @@
 .habit-container {
     margin-bottom: 6rem;
     .myFlex(@justify: space-between; @align: center);
+    @media @phone {
+        .myFlex(@direction: column);
+        border-bottom: 1px solid @yellow;
+        padding-bottom: 4em;
+    }
     &:nth-child(even) {
         flex-direction: row-reverse;
         .img-container {
@@ -9,6 +14,9 @@
     }
     .img-container {
         width: 49%;
+        @media @phone {
+            width: 90%;
+        }
         .myFlex(@justify: flex-start);
         img {
             max-width: 100%;
@@ -23,6 +31,9 @@
     .text-container {
         background: @light-gray;
         width: 45%;
+        @media @phone {
+            width: 95%;
+        }
         color: @black;
         padding: 3rem;
         border-radius: 2rem;
